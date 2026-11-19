@@ -1,0 +1,39 @@
+name: Bug or crash
+description: Report something that failed while using Open Pen.
+title: "Bug: "
+labels: [bug, needs triage]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Issues are public. Review attachments and diagnostics before sharing. Remove private designs, credentials, and personal information.
+  - type: input
+    id: version
+    attributes:
+      label: Open Pen version
+      description: In the app menu, open About Open Pen.
+    validations:
+      required: true
+  - type: input
+    id: macos
+    attributes:
+      label: macOS version and Mac model
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: If you can reproduce the problem, use a new project or a sample design you can share. For a one-off crash, describe what you were doing just before it happened.
+  - type: textarea
+    id: outcome
+    attributes:
+      label: What happened and what did you expect?
+      description: Include any error message and whether it happens every time.
+    validations:
+      required: true
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Reviewed diagnostics or screenshot
+      description: If useful, use Settings → Diagnostics. Review the output before posting and use disposable files for screenshots.

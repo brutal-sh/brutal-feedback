@@ -1,0 +1,19 @@
+name: Feature request
+description: Suggest a change that would help with a design workflow.
+title: "Feature: "
+labels: [enhancement, needs triage]
+body:
+  - type: textarea
+    id: workflow
+    attributes:
+      label: What are you trying to do?
+      description: Describe the workflow and what slows you down today.
+    validations:
+      required: true
+  - type: textarea
+    id: improvement
+    attributes:
+      label: What would make it easier?
+      description: An example or a workaround is helpful when you have one.
+    validations:
+      required: true
