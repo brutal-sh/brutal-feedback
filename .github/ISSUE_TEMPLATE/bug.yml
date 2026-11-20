@@ -1,5 +1,5 @@
 name: Bug or crash
-description: Report something that failed while using Open Pen.
+description: Report something that failed while using Brutal.
 title: "Bug: "
 labels: [bug, needs triage]
 body:
@@ -10,8 +10,8 @@ body:
   - type: input
     id: version
     attributes:
-      label: Open Pen version
-      description: In the app menu, open About Open Pen.
+      label: Brutal version
+      description: In the app menu, open About Brutal.
     validations:
       required: true
   - type: input
