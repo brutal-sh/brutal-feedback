@@ -1,5 +1,7 @@
 # Brutal beta
 
+Brutal is a desktop design app by THEFT Studio.
+
 Download the signed, notarized Apple-silicon Mac beta from [Releases](https://github.com/brutal-sh/brutal-feedback/releases). See [Getting started](https://brutal.sh/help/getting-started/#download) for installation and checksum verification.
 
 If you already have Beta 10 or later, choose **Brutal → Check for Updates…**. Install from the ZIP if you have Beta 9 or earlier.
