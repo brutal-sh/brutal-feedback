@@ -4,6 +4,8 @@ Download the signed, notarized Apple-silicon Mac beta from [Releases](https://gi
 
 If you already have Beta 10 or later, choose **Brutal → Check for Updates…**. Install from the ZIP if you have Beta 9 or earlier.
 
+The Mac beta includes a local MCP server. Open **Settings → MCP** to connect a compatible client. The CLI is available from the Brutal source checkout and requires Bun. See the [MCP and CLI setup guide](https://brutal.sh/automation/).
+
 **Privacy and usage stats.** Beta 16 has usage sharing off. In builds that offer **Share stats**, sharing requires your consent. Change your choice in **Settings → Privacy**. [See what is sent and how long totals are kept](https://brutal.sh/help/privacy/#usage-stats).
 
 - [Report a bug or crash](https://github.com/brutal-sh/brutal-feedback/issues/new?template=bug.yml). In Brutal, choose **Help → Report an Issue** to open the same form.
