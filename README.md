@@ -6,7 +6,7 @@ If you already have Beta 10 or later, choose **Brutal → Check for Updates…**
 
 The Mac beta includes a local MCP server. Open **Settings → MCP** to connect a compatible client. The CLI is available from the Brutal source checkout and requires Bun. See the [MCP and CLI setup guide](https://brutal.sh/automation/).
 
-**Privacy and usage stats.** Beta 16 has usage sharing off. In builds that offer **Share stats**, sharing requires your consent. Change your choice in **Settings → Privacy**. [See what is sent and how long totals are kept](https://brutal.sh/help/privacy/#usage-stats).
+**Privacy and usage stats.** The current Mac beta, Beta 17, has usage sharing off. In builds that offer **Share stats**, sharing requires your consent. Change your choice in **Settings → Privacy**. [See what is sent and how long totals are kept](https://brutal.sh/help/privacy/#usage-stats).
 
 - [Report a bug or crash](https://github.com/brutal-sh/brutal-feedback/issues/new?template=bug.yml). In Brutal, choose **Help → Report an Issue** to open the same form.
 - [Request a feature](https://github.com/brutal-sh/brutal-feedback/issues/new?template=feature.yml). Describe the goal and where the workflow falls short.
